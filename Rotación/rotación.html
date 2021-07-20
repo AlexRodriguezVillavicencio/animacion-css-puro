@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .contenedor{
+            border: 1px solid red;
+            width: 1200px;
+            height: 600px;
+            margin: auto;
+        }
+        .sol{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(255, 187, 0);
+            border-radius: 50%;
+            transform: translate(calc(600px - 200px), calc(300px - 200px));
+
+
+        }
+        .D_tierra{
+            width: 150px;
+            height: 150px;           
+            border: 1px solid red;
+    
+            transform: translate(20px , -150px); 
+        }
+        .tierra{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(48, 202, 143);
+            border-radius: 50%;   
+        }
+        .luna{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(202, 92, 197);
+            border-radius: 50%;   
+        }
+
+    </style>
+    <div class="contenedor">
+        <div class="sol"></div>
+        <div class="D_tierra">
+            <div class="tierra"></div>
+            <div class="luna"></div>
+        </div>
+        <div class="jupiter"></div>
+        <div class="mercurio"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
